@@ -1,0 +1,130 @@
+.general{
+    margin: 0 auto;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-top: solid 5px; 
+    border-right: solid 10px;
+    border-left: solid 10px;
+    border-bottom: solid 5px;
+}     
+
+body{
+    background-image: url(../img/MangaJaponesa008.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}     
+
+ul{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2.0;
+    text-decoration: none;
+    background-color: black;
+    opacity: 50%;
+    color: whitesmoke;
+}
+
+.menuIntro{
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    width: 50%;
+    padding: 5px;
+    margin: 250px;
+    text-align: center;
+    backface-visibility: 50%;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pIntro{
+    font-size: 25px;
+    font-style: italic;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+}
+
+footer  h4{
+    display: inline-block;
+}
+
+h4{
+    padding: 0px 35px;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 80px;
+    background-color:bisque;
+    border-radius: 5%;
+}
+
+h3{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    opacity: 50%;
+    color: whitesmoke;
+    padding: 0 40px;
+    margin-left: 0px;
+    margin-right: 1000px;
+}
+
+.pImagen{
+    background-color: black;
+    opacity: 30%;
+    color: white;
+    margin-right: 1300px;
+    font-size: 20px;
+}
+
+.linkOferta{
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    font-size: 20px;
+    margin-right: 1000px;
+}
+
+h1{
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    text-align: center;
+}
+
+.pAbout{
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    text-align: center;
+}
+
+.contacto1{
+    background-color: black;
+    opacity: 50%;
+    color: white;
+}
+
+.tabla1{
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+td{
+    font-weight: bold;
+    border: 5px;
+    text-align: center;
+}
+
