@@ -51,12 +51,10 @@ ul{
     color: white;
 }
 
-footer  h4{
-    display: inline-block;
-}
-
-h4{
-    padding: 0px 35px;
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 li{
@@ -74,16 +72,14 @@ h3{
     opacity: 50%;
     color: whitesmoke;
     padding: 0 40px;
-    margin-left: 0px;
-    margin-right: 1000px;
 }
 
 .pImagen{
     background-color: black;
     opacity: 30%;
     color: white;
-    margin-right: 1300px;
     font-size: 20px;
+    text-align: center;
 }
 
 .linkOferta{
@@ -91,7 +87,6 @@ h3{
     opacity: 50%;
     color: white;
     font-size: 20px;
-    margin-right: 1000px;
 }
 
 h1{
@@ -115,16 +110,64 @@ h1{
 }
 
 .tabla1{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+
     background-color: black;
     opacity: 50%;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 80%;
 }
 
 td{
     font-weight: bold;
-    border: 5px;
     text-align: center;
+    border: 2px solid;
+}
+
+th{
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+}
+
+
+.input{
+    width: 200px;
+    transition: all 2s;
+}
+
+.input:focus{
+    background-color: lightsalmon;
+    width: 400px;
+}
+
+.imgzoom{
+    overflow: hidden;
+    margin: 8px;
+    min-width: 200px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.imgzoom img{
+    transition: all 0.5s;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.imgzoom:hover img{
+    transform: scale(1.5) rotate(5deg);
 }
 
